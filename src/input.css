@@ -9,3 +9,15 @@ body {
 .dropdown:hover .dropdown-menu {
   display: block;
 }
+
+.android-active {
+    @apply block;
+}
+
+.navbar-active >  div {
+    @apply block;
+}
+
+.navbar-menu:hover >  div {
+    @apply block;
+}

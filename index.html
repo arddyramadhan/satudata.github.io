@@ -7,91 +7,217 @@
   <link href="./src/output.css" rel="stylesheet">
 </head>
 
-<body class="bg-[#F8F9F4]">
-  <header class="">
-    <section>
-      <div class="container  px-[12px] py-[8px]">
-        <div class="flex flex-row py-[8px]">
-          <div class="w-[550px]">
-            <div class="flex justify-start">
-              <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M19.8623 13.4302H34.7725V26.1477H19.8623V13.4302Z" fill="#95090A" />
-                <path d="M19.8623 13.4302V1L34.7725 13.4302H19.8623Z" fill="#C4151C" />
-                <path d="M19.8627 13.4302L5.22656 26.1477H19.8627V13.4302Z" fill="#CA111C" />
-                <path d="M5.22656 26.1477L19.8627 39L34.7729 26.1477H5.22656Z" fill="#EE1B22" />
-                <path d="M34.7725 13.4302L19.8623 26.1477V13.4302H34.7725Z" fill="#A80F14" />
-              </svg>
-              <div class="mx-[12px]">
-                <h1 class="font-extrabold text-primary text-[14px] leading-[24px]">SATU DATA</h1>
-                <h1 class="font-extrabold text-dark text-[16px] -mt-1 leading-[24px]">KOTA GORONTALO</h1>
-              </div>
+
+<body class="bg-[#FFFFFF]">
+  <header id="header" class="bg-[#F8F9F4]">
+    <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
+      <div class="flex lg:flex-1">
+        <a href="#" class="-m-1.5 p-1.5">
+          <div class="flex justify-start">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M19.8623 13.4302H34.7725V26.1477H19.8623V13.4302Z" fill="#95090A" />
+              <path d="M19.8623 13.4302V1L34.7725 13.4302H19.8623Z" fill="#C4151C" />
+              <path d="M19.8627 13.4302L5.22656 26.1477H19.8627V13.4302Z" fill="#CA111C" />
+              <path d="M5.22656 26.1477L19.8627 39L34.7729 26.1477H5.22656Z" fill="#EE1B22" />
+              <path d="M34.7725 13.4302L19.8623 26.1477V13.4302H34.7725Z" fill="#A80F14" />
+            </svg>
+            <div class="mx-[12px]">
+              <h1 class="font-extrabold text-primary  text-[14px] leading-[24px]">SATU DATA</h1>
+              <h1 class="font-extrabold text-dark  text-[16px] -mt-1 leading-[24px]">KOTA GORONTALO</h1>
             </div>
           </div>
-          <div class="w-auto">
-            <div class="flex justify-start gap-[16px]">
-              <div class="flex justify-start py-2 px-4 gap-[16px] ">
-                <a href="#" class=" w-[99px] text-[#334155] flex justify-center">
-                  <span class="text-[14px] leading-[25px]">Dataset</span>
-                </a>
-                <a href="#" class=" w-[99px] text-[#334155] flex justify-center">
-                  <span class="text-[14px] leading-[25px]">Data Insight</span>
-                </a>
-                <div class="dropdown inline-block relative">
-                  <button class="flex justify-center items-center w-[99px]">
-                    <span class="mr-[8px] text-[14px] text-[#334155] leading-[25px]">Publikasi</span>
-                    <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path
-                        d="M1.56715 2.83862C0.922625 2.83862 0.725501 3.65714 1.19117 4.1228L3.82423 6.63501C4.23552 6.9992 4.5343 7.16113 4.99974 7.16113C5.46519 7.16113 5.76401 6.9992 6.17529 6.63501L8.80836 4.1228C9.27402 3.65714 9.0769 2.83862 8.43238 2.83862H1.56715Z"
-                        fill="#334155" stroke="#334155" stroke-linecap="round" stroke-linejoin="round" />
-                    </svg>
-                  </button>
-                  <ul class="dropdown-menu absolute hidden text-gray-700 pt-1">
-                    <li class=""><a class="rounded-t bg-slate-200 hover:bg-slate-400 py-2 px-4 block whitespace-no-wrap"
-                        href="#">listmenu</a></li>
-                  </ul>
-                </div>
-                <div class="dropdown inline-block relative">
-                  <button class="flex justify-center items-center w-[99px]">
-                    <span class="mr-[8px] text-[#334155] text-[14px] leading-[25px]">Tentang</span>
-                    <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path
-                        d="M1.56715 2.83862C0.922625 2.83862 0.725501 3.65714 1.19117 4.1228L3.82423 6.63501C4.23552 6.9992 4.5343 7.16113 4.99974 7.16113C5.46519 7.16113 5.76401 6.9992 6.17529 6.63501L8.80836 4.1228C9.27402 3.65714 9.0769 2.83862 8.43238 2.83862H1.56715Z"
-                        fill="#334155" stroke="#334155" stroke-linecap="round" stroke-linejoin="round" />
-                    </svg>
-                  </button>
-                  <ul class="dropdown-menu absolute hidden text-gray-700 pt-1">
-                    <li class=""><a
-                        class="rounded-t bg-slate-200 hover:bg-slate-400  py-2 px-4 block whitespace-no-wrap"
-                        href="#">listmenu</a></li>
-                  </ul>
-                </div>
-                <a href="#" class="w-[99px] flex justify-center">
-                  <span class="text-[14px] text-[#334155] leading-[25px]">Regulasi SDI</span>
-                </a>
-              </div>
-              <button type="submit"
-                class="text-[14px] h-[40px] text-white w-[126px] bg-primary rounded-lg leading-[25px]">
-                Masuk
-              </button>
+        </a>
+      </div>
+      <div class="flex lg:hidden">
+        <button type="button" id="hamburger" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
+          <span class="sr-only">Open main menu</span>
+          <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
+        </button>
+      </div>
+      <div class="hidden lg:flex lg:gap-x-12 ">
+        <a href="#" class="text-sm flex hover:text-primary items-center font-semibold leading-6 text-gray-900">Dataset</a>
+        <a href="#" class="text-sm flex hover:text-primary items-center font-semibold leading-6 text-gray-900">Data Insight</a>
+        <button type="button"
+          class="flex relative hover:text-primary items-center navbar-menu gap-x-1 text-sm font-semibold leading-6 text-gray-900"
+          aria-expanded="false">
+          Publikasi
+          <svg class="h-5 w-5 flex-none text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+            <path fill-rule="evenodd"
+              d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+              clip-rule="evenodd" />
+          </svg>
+          <div class="hidden bg-black navbar-menu ">
+            <div
+              class="absolute -left-3 top-full z-10 w-40 rounded-xl bg-white p-2 shadow-lg ring-1 ring-gray-900/5">
+              <a href="#"
+                class="block rounded-lg px-3 py-2 text-left text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-50">About
+                us</a>
+              <a href="#"
+                class="block rounded-lg px-3 py-2 text-left text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-50">Careers</a>
+              <a href="#"
+                class="block rounded-lg px-3 py-2 text-left text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-50">Support</a>
+              <a href="#"
+                class="block rounded-lg px-3 py-2 text-left text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-50">Press</a>
+              <a href="#"
+                class="block rounded-lg px-3 py-2 text-left text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-50">Blog</a>
             </div>
+          </div>
+        </button>
+        <button type="button"
+          class="flex relative hover:text-primary items-center navbar-menu gap-x-1 text-sm font-semibold leading-6 text-gray-900"
+          aria-expanded="false">
+          Tentang
+          <svg class="h-5 w-5 flex-none text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+            <path fill-rule="evenodd"
+              d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+              clip-rule="evenodd" />
+          </svg>
+          <div class="hidden bg-black navbar-menu ">
+            <div
+              class="absolute -left-3 top-full z-10 w-40 rounded-xl bg-white p-2 shadow-lg ring-1 ring-gray-900/5">
+              <a href="#"
+                class="block rounded-lg px-3 py-2 text-left text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-50">About
+                us</a>
+              <a href="#"
+                class="block rounded-lg px-3 py-2 text-left text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-50">Careers</a>
+              <a href="#"
+                class="block rounded-lg px-3 py-2 text-left text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-50">Support</a>
+              <a href="#"
+                class="block rounded-lg px-3 py-2 text-left text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-50">Press</a>
+              <a href="#"
+                class="block rounded-lg px-3 py-2 text-left text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-50">Blog</a>
+            </div>
+          </div>
+        </button>
+        <a href="#" class="text-sm flex hover:text-primary items-center font-semibold leading-6 text-gray-900">Regulasi SDI</a>
+        <a href="#" class="hover:opacity-70 hover:shadow-md text-[14px] h-[40px] flex justify-center items-center w-[126px] bg-primary rounded-lg text-sm font-semibold leading-6 text-white">Masuk </a>
+        <!-- <button type="submit"
+                class="">
+                Masuk
+              </button> -->
+      </div>
+    </nav>
 
+    <!-- Mobile menu, show/hide based on menu open state. -->
+    <div class="hidden" id="android" role="dialog" aria-modal="true">
+      <!-- Background backdrop, show/hide based on slide-over state. -->
+      <div class="fixed inset-0 z-10"></div>
+      <div
+        class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+        <div class="flex items-center justify-between">
+          <a href="#" class="-m-1.5 p-1.5">
+            <span class="sr-only">Your Company</span>
+            <!-- <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt=""> --><div class="flex justify-start">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M19.8623 13.4302H34.7725V26.1477H19.8623V13.4302Z" fill="#95090A" />
+              <path d="M19.8623 13.4302V1L34.7725 13.4302H19.8623Z" fill="#C4151C" />
+              <path d="M19.8627 13.4302L5.22656 26.1477H19.8627V13.4302Z" fill="#CA111C" />
+              <path d="M5.22656 26.1477L19.8627 39L34.7729 26.1477H5.22656Z" fill="#EE1B22" />
+              <path d="M34.7725 13.4302L19.8623 26.1477V13.4302H34.7725Z" fill="#A80F14" />
+            </svg>
+            <div class="mx-[12px]">
+              <h1 class="font-extrabold text-primary  text-[14px] leading-[24px]">SATU DATA</h1>
+              <h1 class="font-extrabold text-dark  text-[16px] -mt-1 leading-[24px]">KOTA GORONTALO</h1>
+            </div>
+          </div>
+          </a>
+          <button type="button" id="hamburger-close"  class=" -m-2.5 rounded-md p-2.5 text-gray-700">
+            <span class="sr-only">Close menu</span>
+            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+              aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+        <div class="mt-6 flow-root">
+          <div class="-my-6 divide-y divide-gray-500/10">
+            <div class="space-y-2 py-6">
+              
+              <a href="#"
+                class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Dataset</a>
+              <a href="#"
+                class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Data Insight</a>
+              <div class="-mx-3">
+                <button type="button" id="publikasi"
+                  class="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 hover:bg-gray-50"
+                  aria-controls="disclosure-2" aria-expanded="false">
+                  Publikasi
+                  <svg class="h-5 w-5 flex-none" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd"
+                      d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                      clip-rule="evenodd" />
+                  </svg>
+                </button>
+                <div class="hidden mt-2 space-y-2" id="publikasi-menu">
+                  <a href="#"
+                    class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">About
+                    us</a>
+                  <a href="#"
+                    class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">Careers</a>
+                  <a href="#"
+                    class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">Support</a>
+                  <a href="#"
+                    class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">Press</a>
+                  <a href="#"
+                    class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">Blog</a>
+                </div>
+              </div>
+              <div class="-mx-3">
+                <button id="tentang" type="button"
+                  class="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 hover:bg-gray-50"
+                  aria-controls="disclosure-2" aria-expanded="false">
+                  Tentang
+                  <svg class="h-5 w-5 flex-none" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd"
+                      d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                      clip-rule="evenodd" />
+                  </svg>
+                </button>
+                <div class="hidden mt-2 space-y-2" id="tentangMenu">
+                  <a href="#"
+                    class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">About
+                    us</a>
+                  <a href="#"
+                    class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">Careers</a>
+                  <a href="#"
+                    class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">Support</a>
+                  <a href="#"
+                    class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">Press</a>
+                  <a href="#"
+                    class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">Blog</a>
+                </div>
+              </div>
+              <a href="#"
+                class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Regulasi SDI</a>
+            </div>
+            <div class="py-6">
+              <a href="#"
+                class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Log
+                in</a>
+            </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
   </header>
-  <section id="hero" class="pt-36 px-[12px]">
-    <div class="container px-[20px]">
-      <div class="flex flex-wrap">
+
+  <!-- todo hero -->
+  <section id="hero" class="pt-10 bg-[#F8F9F4] lg:pt-36 pb-[50px] lg:pb-[95px]  px-[12px]">
+    <div class="container px-[20px] ">
+      <div class="flex flex-wrap-reverse ">
         <!-- div left -->
         <div class="w-full self-center lg:w-1/2">
           <h1 class="font-semibold text-[36px] leading-[54px]">Temukan Visualisasi di <br> <span
               class="text-primary font-extrabold">SATU DATA</span> <span class="text-dark font-extrabold">KOTA
               GORONTALO</span></h1>
-          <p class="text-[14px] leading-[24px] mt-[12px] text-[#64748B]">Satu Data Kota Gorontalo adalah upaya agar
+          <p class="text-[14px] leading-[24px] lg:mr-12 mt-[12px] text-[#64748B]">Satu Data Kota Gorontalo adalah upaya
+            agar
             terselenggaranya aksesibilitas data antar instansi pemerintah serta mendorong transparansi dan akuntabilitas
             di dalam pemerintahan.</p>
-          <form class="flex justify-items-start gap-2 mt-[20px]">
+          <form class="flex justify-items-end gap-2 mt-[20px]">
             <div class="relative">
               <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -117,15 +243,17 @@
           </form>
         </div>
         <!-- div right -->
-        <div class="w-full self-end lg:w-1/2">
-          <img class="max-w-full mx-auto" src="./src/img/hero.png" alt="" srcset="">
+        <div class="w-full lg:block mb-5 lg:mb-0 lg:w-1/2">
+          <img class="max-w-full h-full object-fill lg:block rounded-b-3xl lg:rounded-none" src="./img/hero.png" alt="" srcset="">
         </div>
       </div>
     </div>
   </section>
-  <section class="mt-[95px] h-[228px] mb-[40px] px-[12px] py-[8px]">
+
+  <!-- todo list item -->
+  <section class="mt-[40px] lg:mt-0 h-[228px] mb-[300px] lg:mb-[40px] px-[12px] py-[16px]">
     <div class="container px-[20px]">
-      <div class="w-full grid grid-cols-5 gap-[12px]">
+      <div class="w-full grid grid-cols-2  lg:grid-cols-5 gap-[12px]">
         <!-- Ekonomi -->
         <div class="max-h-[84px] min-h-[84px] px-[20px] py-[24px] bg-[#FFFFFF] rounded-lg border border-[#E2E8F0]">
           <div class="flex justify-start">
@@ -296,53 +424,105 @@
       </div>
     </div>
   </section>
-  <section class="mt-[95px] h-[140px] mb-[40px]">
+
+  <!-- todo footer -->
+  <section class="bg-[#FFFFFF] mt-[95px] h-auto lg:h-[140px] mb-[40px]">
     <div class="container border-t-2 border-[#E2E8F0] h-[200px]">
-      <div class="flex justify-start mt-[20px]">
-        <img src="./src/img/bappenas.png" width="172px" height="119px" alt="">
-        <div class="flex justify-start mt-[21px] ml-[20px] pl-[62px]">
-          <div class="flex justify-start mr-[8px]">
+      <div class="flex lg:justify-start justify-between items-center px-3 mt-[20px]">
+        <img src="/src/img/kominfo.png" width="" height="" class=" h-[109px] w-[214px]" alt="">
+        <div class="flex-wrap  lg:flex justify-between  mt-[21px] ml-[10px] pl-[62px]">
+          <div class="flex justify-start lg:mr-[8px] mb-1">
             <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M11.9996 11.1825C11.9996 9.59779 15.6966 9.668 15.6966 6.45433C15.6966 4.41253 14.0414 2.75733 11.9996 2.75732C9.95776 2.75732 8.30255 4.41253 8.30255 6.45433C8.30255 9.64457 11.9996 9.61989 11.9996 11.1825ZM11.9996 11.1825L11.9995 18.5366M16.4295 16.3358C18.1186 16.6842 19.4387 17.222 20.185 17.8658C20.9314 18.5095 21.0623 19.2233 20.5576 19.8964C20.0528 20.5695 18.9404 21.1642 17.3931 21.5884C15.8458 22.0126 13.9499 22.2425 11.9996 22.2425C10.0492 22.2425 8.15332 22.0126 6.60599 21.5884C5.05866 21.1642 3.94634 20.5695 3.44155 19.8964C2.93676 19.2233 3.06769 18.5095 3.81407 17.8658C4.56044 17.222 5.88053 16.6842 7.5696 16.3358"
                 stroke="#EE1B22" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
             </svg>
-            <div class="ml-[12px] w-[328px]">
-              <p class="font-semibold text-[14px] leading-[24px]">Lokasi Kantor Walikota Gorontalo</p>
+            <div class="ml-[12px] lg:w-[328px] w-full">
+              <p class="font-semibold text-[14px] leading-[24px] hidden lg:block">Lokasi Kantor Walikota Gorontalo</p>
               <p class="text-[14px] leading-[24px]">Jl. Nani Wartabone No. 03, Kel. Biawao Kec. Kota Selatan, Biawao,
                 Kota Sel, Kabupaten Gorontalo</p>
             </div>
           </div>
-          <div class="flex justify-start">
+          <div class="flex justify-start mb-1">
             <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M2.25293 9.13809C5.25298 12.1381 8.66543 14.675 12.0012 14.6294C15.337 14.5839 18.7479 12.138 21.7479 9.13809M9.67351 10.522H14.3289M7.76089 13.5452C7.76089 13.5452 5.25298 14.3662 5.25298 17.2395M16.24 13.5452C16.24 13.5452 18.7479 14.3662 18.7479 17.2395M5.25293 4.25H18.7479C20.4099 4.25 21.7479 5.588 21.7479 7.25V17.75C21.7479 19.412 20.4099 20.75 18.7479 20.75H5.25293C3.59093 20.75 2.25293 19.412 2.25293 17.75V7.25C2.25293 5.588 3.59093 4.25 5.25293 4.25Z"
                 stroke="#EE1B22" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
             </svg>
             <div class="ml-[12px] w-[194px]">
-              <p class="font-semibold text-[14px] leading-[24px]">Email</p>
+              <p class="font-semibold text-[14px] leading-[24px] hidden lg:block">Email</p>
               <p class="text-[14px] leading-[24px]">pemda@gorontalokota.go.id</p>
             </div>
           </div>
-          <div class="flex justify-start">
+          <div class="flex justify-start mb-1">
             <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M8.18921 3.77949C7.12156 2.72833 5.75161 2.27263 4.61923 3.40499C0.411281 7.61294 2.29711 13.756 6.52564 17.9845C10.7542 22.213 16.8972 24.0989 21.1051 19.8909C24.1248 16.8712 15.858 12.1621 15.0977 16.0032L14.7277 18.2795C12.0739 18.2795 9.5969 16.1853 8.96085 15.5493C8.3248 14.9132 6.2306 12.4362 6.2306 9.78238L8.50694 9.41246C10.9076 8.93725 9.96863 5.53145 8.18921 3.77949Z"
                 stroke="#EE1B22" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
             </svg>
             <div class="ml-[12px] w-[157px]">
-              <p class="font-semibold text-[14px] leading-[24px]">Telepon</p>
+              <p class="font-semibold text-[14px] leading-[24px] hidden lg:block">Telepon</p>
               <p class="text-[14px] leading-[24px]">(0435) 821012</p>
             </div>
           </div>
-          <div class="flex justify-start">
+          <div class="flex justify-start mb-1">
+            <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M6.37598 19.6227H5.24512C3.58312 19.6227 2.24512 18.2847 2.24512 16.6227V9.7956C2.24512 8.1336 3.58312 6.7956 5.24512 6.7956H18.7551C20.4171 6.7956 21.7551 8.1336 21.7551 9.7956V16.6227C21.7551 18.2847 20.4171 19.6227 18.7551 19.6227H17.6729M15.4463 10.0134H15.915M18.2588 10.0134H18.7275M6.42281 6.66601V4.97852C6.42281 3.73202 7.42634 2.72852 8.67284 2.72852H15.3291C16.5756 2.72852 17.5791 3.73202 17.5791 4.97852V6.66601M9.35762 17.9605H14.6443M6.42281 14.267V19.9977C6.42281 21.2442 7.42634 22.2477 8.67284 22.2477H15.3291C16.5756 22.2477 17.5791 21.2442 17.5791 19.9977V14.267H6.42281Z"
+                stroke="#EE1B22" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            <div class="ml-[12px] w-auto">
+              <p class="font-semibold text-[14px] leading-[24px] hidden lg:block">Fax</p>
+              <p class="text-[14px] leading-[24px]">(0435) 830412</p>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="hidden flex-row  justify-start  mt-[21px] ml-[20px] pl-[62px]">
+          <div class="flex justify-start lg:mr-[8px] mb-1">
+            <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M11.9996 11.1825C11.9996 9.59779 15.6966 9.668 15.6966 6.45433C15.6966 4.41253 14.0414 2.75733 11.9996 2.75732C9.95776 2.75732 8.30255 4.41253 8.30255 6.45433C8.30255 9.64457 11.9996 9.61989 11.9996 11.1825ZM11.9996 11.1825L11.9995 18.5366M16.4295 16.3358C18.1186 16.6842 19.4387 17.222 20.185 17.8658C20.9314 18.5095 21.0623 19.2233 20.5576 19.8964C20.0528 20.5695 18.9404 21.1642 17.3931 21.5884C15.8458 22.0126 13.9499 22.2425 11.9996 22.2425C10.0492 22.2425 8.15332 22.0126 6.60599 21.5884C5.05866 21.1642 3.94634 20.5695 3.44155 19.8964C2.93676 19.2233 3.06769 18.5095 3.81407 17.8658C4.56044 17.222 5.88053 16.6842 7.5696 16.3358"
+                stroke="#EE1B22" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            <div class="ml-[12px] w-[328px]">
+              <p class="font-semibold text-[14px] leading-[24px] hidden lg:block">Lokasi Kantor Walikota Gorontalo</p>
+              <p class="text-[14px] leading-[24px]">Jl. Nani Wartabone No. 03, Kel. Biawao Kec. Kota Selatan, Biawao,
+                Kota Sel, Kabupaten Gorontalo</p>
+            </div>
+          </div>
+          <div class="flex justify-start mb-1">
+            <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M2.25293 9.13809C5.25298 12.1381 8.66543 14.675 12.0012 14.6294C15.337 14.5839 18.7479 12.138 21.7479 9.13809M9.67351 10.522H14.3289M7.76089 13.5452C7.76089 13.5452 5.25298 14.3662 5.25298 17.2395M16.24 13.5452C16.24 13.5452 18.7479 14.3662 18.7479 17.2395M5.25293 4.25H18.7479C20.4099 4.25 21.7479 5.588 21.7479 7.25V17.75C21.7479 19.412 20.4099 20.75 18.7479 20.75H5.25293C3.59093 20.75 2.25293 19.412 2.25293 17.75V7.25C2.25293 5.588 3.59093 4.25 5.25293 4.25Z"
+                stroke="#EE1B22" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            <div class="ml-[12px] w-[194px]">
+              <p class="font-semibold text-[14px] leading-[24px] hidden lg:block">Email</p>
+              <p class="text-[14px] leading-[24px]">pemda@gorontalokota.go.id</p>
+            </div>
+          </div>
+          <div class="flex justify-start mb-1">
+            <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M8.18921 3.77949C7.12156 2.72833 5.75161 2.27263 4.61923 3.40499C0.411281 7.61294 2.29711 13.756 6.52564 17.9845C10.7542 22.213 16.8972 24.0989 21.1051 19.8909C24.1248 16.8712 15.858 12.1621 15.0977 16.0032L14.7277 18.2795C12.0739 18.2795 9.5969 16.1853 8.96085 15.5493C8.3248 14.9132 6.2306 12.4362 6.2306 9.78238L8.50694 9.41246C10.9076 8.93725 9.96863 5.53145 8.18921 3.77949Z"
+                stroke="#EE1B22" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            <div class="ml-[12px] w-[157px]">
+              <p class="font-semibold text-[14px] leading-[24px] hidden lg:block">Telepon</p>
+              <p class="text-[14px] leading-[24px]">(0435) 821012</p>
+            </div>
+          </div>
+          <div class="flex justify-start mb-1">
             <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M6.37598 19.6227H5.24512C3.58312 19.6227 2.24512 18.2847 2.24512 16.6227V9.7956C2.24512 8.1336 3.58312 6.7956 5.24512 6.7956H18.7551C20.4171 6.7956 21.7551 8.1336 21.7551 9.7956V16.6227C21.7551 18.2847 20.4171 19.6227 18.7551 19.6227H17.6729M15.4463 10.0134H15.915M18.2588 10.0134H18.7275M6.42281 6.66601V4.97852C6.42281 3.73202 7.42634 2.72852 8.67284 2.72852H15.3291C16.5756 2.72852 17.5791 3.73202 17.5791 4.97852V6.66601M9.35762 17.9605H14.6443M6.42281 14.267V19.9977C6.42281 21.2442 7.42634 22.2477 8.67284 22.2477H15.3291C16.5756 22.2477 17.5791 21.2442 17.5791 19.9977V14.267H6.42281Z"
                 stroke="#EE1B22" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
             </svg>
             <div class="ml-[12px] w-[194px]">
-              <p class="font-semibold text-[14px] leading-[24px]">Fax</p>
+              <p class="font-semibold text-[14px] leading-[24px] hidden lg:block">Fax</p>
               <p class="text-[14px] leading-[24px]">(0435) 830412</p>
             </div>
           </div>
@@ -350,6 +530,8 @@
       </div>
     </div>
   </section>
+
+  <!-- todo footer -->
   <footer class="w-full">
     <section class="bg-dark">
       <div class="container">
@@ -401,6 +583,8 @@
       </div>
     </section>
   </footer>
+
+  <script src="./dist/togle.js"></script>
 </body>
 
 </html>
